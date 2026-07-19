@@ -1,8 +1,8 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class EncapsulationDemo {
         public static void main(String[] args) {
-            Student student = new Student();
+            EncapsulatedStudent student = new EncapsulatedStudent();
 
             // Setting values using setters
             student.setName("Nishtha");
@@ -13,3 +13,4 @@ public class Main {
             System.out.println("Student Age: " + student.getAge());
         }
 }
+

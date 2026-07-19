@@ -1,4 +1,4 @@
-public class Student1 {
+public class ValidatedStudent {
     private String name;
     private int age;
 
@@ -24,4 +24,5 @@ public class Student1 {
         return age;
     }
 }
+
 

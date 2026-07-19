@@ -1,4 +1,4 @@
-public class Calculator {
+public class OverloadingCalculator {
 
     int add(int a, int b) {
         return a + b;
@@ -8,3 +8,4 @@ public class Calculator {
         return a + b;
     }
 }
+

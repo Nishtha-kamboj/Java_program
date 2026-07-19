@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class Encapsulation {
+public class StudentInputApp {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        Student student = new Student();
+        EncapsulatedStudent student = new EncapsulatedStudent();
 
 
         System.out.print("Enter your name: ");
@@ -26,3 +26,4 @@ public class Encapsulation {
         sc.close();
     }
 }
+

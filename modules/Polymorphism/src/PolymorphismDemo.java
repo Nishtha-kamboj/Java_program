@@ -1,11 +1,11 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class PolymorphismDemo {
     public static void main(String[] args) {
 
-        // Reference type = Animal
-        // Object type = Dog
-        Animal myPet = new Dog();
+        // Reference type = AnimalBase
+        // Object type = PolymorphicDog
+        AnimalBase myPet = new PolymorphicDog();
 
         myPet.makeSound();   // Output: Woof!
 
@@ -15,3 +15,4 @@ public class Main {
         myPet.makeSound();   // Output: Meow!
     }
 }
+

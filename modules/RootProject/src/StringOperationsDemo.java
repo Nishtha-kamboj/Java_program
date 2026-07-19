@@ -1,12 +1,10 @@
-public class Title {
+public class StringOperationsDemo {
     String name = "Java_my_first_program";
     public static void main(String s[])
     {
-        Title obj = new Title();
+        StringOperationsDemo obj = new StringOperationsDemo();
 
         System.out.println(obj.name);
-
-
 
         System.out.println(obj.name.length());
         System.out.println(obj.name.toUpperCase());
@@ -15,17 +13,6 @@ public class Title {
         System.out.println(obj.name.substring(3,8));
         System.out.println(obj.name.trim());
         System.out.println(obj.name.replace("J","k"));
-
-
-
-
-
-
-
-
-
     }
-
-
-
 }
+

@@ -1,4 +1,4 @@
-public class Student {
+public class EncapsulatedStudent {
         private String name;
         private int age;
 
@@ -21,6 +21,7 @@ public class Student {
             return age;
         }
     }
+
 
 
 

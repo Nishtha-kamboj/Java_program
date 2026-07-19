@@ -1,10 +1,10 @@
-public class Animal {
+public class AnimalWithFinalMethod {
         final void sound() {
             System.out.println("Animal makes a sound");
         }
     }
 
-    class Dog extends Animal {
+    class Dog extends AnimalWithFinalMethod {
     }
 
     class Demo {
@@ -13,4 +13,5 @@ public class Animal {
             d.sound();
         }
     }
+
 
